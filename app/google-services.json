@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "266712565550",
+    "project_id": "fox-socialmdl",
+    "storage_bucket": "fox-socialmdl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266712565550:android:027e34a0768ecc42695cbf",
+        "android_client_info": {
+          "package_name": "com.studiob4.fox_social_mdl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266712565550-ekojpr0pp3o6i7ca2t6502gmde95gn4f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.studiob4.fox_social_mdl",
+            "certificate_hash": "d420581b63834308f477cf88777952b6af33f259"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLJ7sMVbsufdmCvUu6fgVTRPf5F1hf8PA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

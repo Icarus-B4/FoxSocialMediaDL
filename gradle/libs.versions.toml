@@ -1,0 +1,65 @@
+[versions]
+agp = "8.5.1"
+appcompat = "1.7.0"
+constraintlayoutVersion = "2.1.2"
+coreKtxVersion = "1.7.0"
+drawerlayout = "1.2.0"
+firebaseBom = "33.1.2"
+firebaseBomVersion = "33.1.2"
+glide = "4.16.0"
+googleMaterial = "1.5.0"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+ksp = "4.12.0"
+liquidSwipe = "1.0.0"
+material = "1.12.0"
+legacySupportV4 = "1.0.0"
+constraintlayout = "2.1.4"
+materialVersion = "1.4.0"
+playServicesAuth = "21.2.0"
+playServicesMlkitTextRecognitionCommon = "19.0.0"
+playServicesVision = "20.1.3"
+viewpager2 = "1.1.0"
+firebaseMessagingKtx = "24.0.0"
+workRuntimeKtx = "2.9.0"
+googleGmsGoogleServices = "4.4.2"
+
+[libraries]
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-constraintlayout-v212 = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayoutVersion" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-core-ktx-v170 = { module = "androidx.core:core-ktx", version.ref = "coreKtxVersion" }
+androidx-drawerlayout = { module = "androidx.drawerlayout:drawerlayout", version.ref = "drawerlayout" }
+androidx-viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "viewpager2" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-auth = { module = "com.google.firebase:firebase-auth" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-bom-v3280 = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBomVersion" }
+firebase-firestore = { module = "com.google.firebase:firebase-firestore" }
+firebase-inappmessaging-display = { module = "com.google.firebase:firebase-inappmessaging-display" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+google-firebase-auth = { module = "com.google.firebase:firebase-auth" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+ksp = { module = "com.github.bumptech.glide:ksp", version.ref = "ksp" }
+liquid-swipe = { module = "com.cuberto:liquid-swipe", version.ref = "liquidSwipe" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "legacySupportV4" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+material-v140 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+material-v150 = { module = "com.google.android.material:material", version.ref = "googleMaterial" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+play-services-mlkit-text-recognition-common = { group = "com.google.android.gms", name = "play-services-mlkit-text-recognition-common", version.ref = "playServicesMlkitTextRecognitionCommon" }
+play-services-vision = { group = "com.google.android.gms", name = "play-services-vision", version.ref = "playServicesVision" }
+firebase-messaging-ktx = { group = "com.google.firebase", name = "firebase-messaging-ktx", version.ref = "firebaseMessagingKtx" }
+androidx-work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workRuntimeKtx" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+

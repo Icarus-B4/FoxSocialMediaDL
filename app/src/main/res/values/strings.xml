@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Fox-Social-MDL</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="todo">TODO</string>
+    <string name="fox_socialmdl">FOX-Social-MDL</string>
+    <string name="made_with_by_edgar_cuppari">Made with ❤️ by Edgar Cuppari</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="promo_code2">MDL News</string>
+    <string name="promo_codes1">Aliexpress</string>
+    <string name="home">Home</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="checkout">Logout</string>
+    <string name="logged_in_successfully">Logged in successfully @ </string>
+    <string name="some_issus_are">Some issus are comming. Dont be afraid!</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_web_client_id">266712565550-ekojpr0pp3o6i7ca2t6502gmde95gn4f.apps.googleusercontent.com</string>
+    <string name="social_mdl">Fox-Social MDLNews&amp;Conspiracy</string>
+    <string name="skip">SKIP</string>
+    <string name="online">Online</string>
+    <string name="downloads">Fox-Social &amp; MDLPortal</string>
+    <string name="downloads2">Fox-Social &amp; Website Portal</string>
+    <string name="temporibus_autem_aut_officiis_debitis_aut_rerum_necessitatibus">Exclusive Promo-Codes &amp; Download Links for MDLNews/ Videos Portal for Premium users</string>
+    <string name="gamers">Insiders</string>
+    <string name="excepteur_sint_occaecat_cupidatat_non_proident_sunt_in_culpa_qui_officia">World News from an other View</string>
+    <string name="für">for</string>
+    <string name="notifiacations">for</string>
+    <string name="notification_channel_name">Installationsbenachrichtigung</string>
+    <string name="notification_channel_description">Benachrichtigung, die nach der Installation der App angezeigt wird</string>
+    <string name="notification_title">Willkommen!</string>
+    <string name="notification_text">Danke, dass du unsere App installiert hast.</string>
+    <string name="notifications">notifications</string>
+</resources>

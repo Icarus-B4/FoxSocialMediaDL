@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent_black"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:orientation="horizontal"
+        android:paddingStart="45dp"
+        android:paddingEnd="45dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="@string/downloads"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:letterSpacing="0.13"
+            android:text="@string/skip"
+            android:textColor="@color/colorOrange"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/imageViewGif"
+            android:layout_width="378dp"
+            android:layout_height="261dp"
+            android:layout_marginEnd="12dp"
+            android:rotation="28"
+            android:src="@drawable/battery_light_f_smdl"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.068" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="41dp"
+            android:fontFamily="sans-serif-light"
+            android:includeFontPadding="false"
+            android:letterSpacing="-0.01"
+            android:text="@string/online"
+            android:textColor="@color/colorOrange"
+            android:textSize="41sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.096"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewGif" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="353dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="sans-serif-condensed"
+            android:includeFontPadding="false"
+            android:letterSpacing="-0.01"
+            android:text="@string/downloads2"
+            android:textColor="@color/white"
+            android:textSize="56sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <TextView
+            android:layout_width="202dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="155dp"
+            android:fontFamily="sans-serif-light"
+            android:letterSpacing="-0.01"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/temporibus_autem_aut_officiis_debitis_aut_rerum_necessitatibus"
+            android:textColor="#b5b5b5"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView4"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/circles_2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
